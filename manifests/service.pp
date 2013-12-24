@@ -1,4 +1,4 @@
-class rabbitmq::service (
+define rabbitmq::service (
   $ensure = running,
   $enable = true
 ) {
